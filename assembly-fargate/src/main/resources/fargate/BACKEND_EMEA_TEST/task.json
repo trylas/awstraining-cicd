@@ -57,7 +57,7 @@
       "name": "backend"
     }
   ],
-  "taskRoleArn": "arn:aws:iam::987511300777:role/backend-ecs-task-role-eu-central-1",
+  "taskRoleArn": "arn:aws:secretsmanager:eu-central-1:987511300777:secret:backend-secretsmanager-test-eu-central-1-uNHOe3",
   "requiresCompatibilities": ["FARGATE"],
   "networkMode": "awsvpc",
   "memory": "2048",
